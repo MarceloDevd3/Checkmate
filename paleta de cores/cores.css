@@ -1,0 +1,8 @@
+/*Paleta de cores*/
+
+:root{
+    --linear-gadiente-colo-1: #48505b;
+    --linear-gadiente-colo-2: #232325;
+    --body-color: hsl(0, 0%, 100%);
+    --red-button-and-text: #f83a47;
+}

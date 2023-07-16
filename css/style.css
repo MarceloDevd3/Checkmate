@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;   
+}
+
+
+.banner-Info load-hidden {
+    visibility: hidden;
+}
+
+button:hover{
+    background-color: hsl(356, 62%, 58%);
+}
+
+
+h1{
+    font-size: 3rem;
+    margin: 0 5px 0 5px; 
+} 
+
+
+h3{
+    font-size: 15px;
+    width: 200px;
+    text-transform: uppercase;
+    color: rgb(28, 27, 25);
+}
+
+.big{
+    font-size:3rem;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: small;
+    color: #fff;
+}
+
+button{
+    background-color: #f83a47;
+    color: white;
+    border: none;
+}
+
+
+header{
+    
+    color: white;
+    width: 100%;
+    background: linear-gradient(45deg,#232325,#48505b);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+
+.line{
+    margin: 0 5px 0 5px;
+    width: 42%;
+    height: 1px;
+    background-color: ghostwhite;
+}
+
+.box-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: solid 1px red;
+    margin: 2px;
+    padding: 4px;
+}
+
+.box-item p {
+    text-align: center;
+}
+
+p span{
+    padding-left: 5px;
+}
+
+.container-border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.new-line{
+    width: 1px;
+    height: 195px;
+    background-color:  ghostwhite;
+    position: relative;
+    top: 25px;
+    opacity: 0.2;
+}
+
+.lines{
+    width: 131px;
+    height: 1px;
+    background-color:  ghostwhite;
+    position: relative;
+    top: 25px;
+    opacity: 0.2;
+}
+
+
+
+.banner-Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 13rem;
+}
+
+
+
+.banner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    z-index: 1;
+}
+
+
+.banner img{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    width: 980px;
+    z-index: 1;
+}
+
+.text{
+    position: relative;
+    top: -20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:2rem;
+    font-weight: 400;
+}
+
+/*
+
+.banner img{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 980px;
+    z-index: 1;
+}
+*/
+
+.btn{
+    position: absolute;
+    top: 180px;
+    width: 80px;
+    padding: 2px;
+    height: 27px;
+}
+
+
+.section {
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+.section p {
+    margin: 10px 0 10px 0;
+}
+
+.hr-line{
+    position: relative;
+    top: 40px;
+    margin: 0 5px 0 5px;
+    width: 175px;
+    height: 1px;
+    background-color: gray; 
+    opacity: 0.5;
+}
+
+
+.group{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+}
+
+
+.pecas{
+    width: 100%;
+}
+
+.pecas img {
+    width: 1300px;
+    height: auto;
+}
+
+
+.chess-peca img {
+    width: 115px;
+    height: auto;
+    padding: 10px;
+}
+
+.card-info{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info p {
+    font-size: small;
+    justify-content: center;
+}
+
+.card-chess{
+    width: 100%;
+    height: 100%;
+}
+
+
+.chess-table .card-chess{
+    border-right: solid 1px white ;
+}
+
+.chess-table .row{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #232325;
+    border-bottom: 1px solid white;
+}
+
+.card-chess  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction:column;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.small{
+    font-size: small;
+}
+
+h4{
+    margin-top: -25px;
+    font-size:3rem ;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h6{
+    margin-top: 5px;
+    color: #f83a47;
+}
+
+.bottom{
+    margin-top: 10px;
+    
+}
+
+.bloco-info{
+    width: 500px;
+    margin-left: 25px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+
+
+.btn-red{
+    padding: 10px;
+    background-color: #f83a47;
+    color: #fff;
+}
+
+
+.board {
+    position: relative;
+    left: 120px;
+}
+
